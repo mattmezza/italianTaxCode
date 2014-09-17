@@ -23,5 +23,9 @@ Questa libreria Java ti può essere utile se devi implementare il calcolo del co
       }
     } catch(NotSuchCityException e) {}
 
+
+
+###### Trovato un bug 💩? Una funzionalità mancante 👍? Questo codice non sarà mica perfetto 😏 ! Crea una issue [qui](https://github.com/mattmezza/italianTaxCode/issues) 👈!
+###### Found a bug 💩? A missing feature 👍? This code is not perfect for sure 😏 ! Fill up an issue [here](https://github.com/mattmezza/italianTaxCode/issues) 👈!
 =============
 _Matteo Merola_
