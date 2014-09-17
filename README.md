@@ -12,6 +12,10 @@ Questa libreria Java ti può essere utile se devi implementare il calcolo del co
 
 ### Usage
 
+_Clone or download this repository and then add the .jar provided into the building path of your java application._
+
+_Clona o scarica questa repository e poi aggiungi il .jar fornito nel building path della tua applicazione java._
+
     FiscalCodeCalculator fcc = new FiscalCodeCalculator();
     try {
       String fiscalCode = fcc.calculateFC("Mario", "Rossi", 'M', new Date(1979, 2, 31), "Pozzilli");
