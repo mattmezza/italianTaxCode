@@ -16,18 +16,18 @@ _Clone or download this repository and then add the .jar provided into the build
 
 _Clona o scarica questa repository e poi aggiungi il .jar fornito nel building path della tua applicazione java._
 
-    FiscalCodeCalculator fcc = new FiscalCodeCalculator();
-    try {
-      String fiscalCode = fcc.calculateFC("Mario", "Rossi", 'M', new Date(1979, 2, 31), "Pozzilli");
-      System.out.println(fiscalCode);
-      System.out.println("tryin to reverse now...");
-      Object[] response = fcc.reverseFC(fiscalCode);
-      for(Object o : response) {
-        System.out.println(o);
-      }
-    } catch(NotSuchCityException e) {}
-
-
+```java
+FiscalCodeCalculator fcc = new FiscalCodeCalculator();
+try {
+  String fiscalCode = fcc.calculateFC("Mario", "Rossi", 'M', new Date(1979, 2, 31), "Pozzilli");
+  System.out.println(fiscalCode);
+  System.out.println("tryin to reverse now...");
+  Object[] response = fcc.reverseFC(fiscalCode);
+  for(Object o : response) {
+    System.out.println(o);
+  }
+} catch(NotSuchCityException e) {}
+```
 
 ###### Trovato un bug 💩? Una funzionalità mancante 👍? Questo codice non sarà mica perfetto 😏 ! Crea una issue [qui](https://github.com/mattmezza/italianTaxCode/issues) 👈!
 ###### Found a bug 💩? A missing feature 👍? This code is not perfect for sure 😏 ! Fill up an issue [here](https://github.com/mattmezza/italianTaxCode/issues) 👈!
