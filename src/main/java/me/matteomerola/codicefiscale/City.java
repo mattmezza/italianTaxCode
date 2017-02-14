@@ -1,4 +1,4 @@
-package com.canmakethat.you.fiscalcode;
+package me.matteomerola.codicefiscale;
 
 public class City {
 

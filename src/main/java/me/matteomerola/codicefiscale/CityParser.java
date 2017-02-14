@@ -1,4 +1,4 @@
-package com.canmakethat.you.fiscalcode;
+package me.matteomerola.codicefiscale;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -10,8 +10,9 @@ import java.util.StringTokenizer;
 
 public class CityParser {
 
+	private static String DB_NAME = "dbcf.csv";
 	private static InputStream INPUT = CityParser.class
-			.getResourceAsStream("dbcf.csv");
+			.getClassLoader().getResourceAsStream(DB_NAME);
 	private static BufferedReader READER = new BufferedReader(
 			new InputStreamReader(INPUT));
 	private static List<City> CITY_DB;

@@ -1,12 +1,13 @@
-package com.canmakethat.you.fiscalcode;
+package me.matteomerola.codicefiscale;
 
 import java.util.Date;
 import java.util.List;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import me.matteomerola.codicefiscale.exceptions.*;
 
 public class FiscalCodeCalculator {
-	
+
 
 	/**
 	* This method calculates an Italian fiscal code starting from the initial and necessary parameters.
@@ -118,7 +119,7 @@ public class FiscalCodeCalculator {
 			break;
 		}
 
-		
+
 		/* Year */
 		fiscalCode += fcBirthDate.substring(8, 10);
 		/* Month */
