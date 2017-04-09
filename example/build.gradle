@@ -1,0 +1,6 @@
+apply plugin: 'application'
+mainClassName = "me.matteomerola.codicefiscale.App"
+
+dependencies {
+    compile project(':library')
+}
