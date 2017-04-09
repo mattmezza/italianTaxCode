@@ -16,6 +16,10 @@ _Clone or download this repository and then add the .jar provided into the build
 
 _Clona o scarica questa repository e poi aggiungi il .jar fornito nel building path della tua applicazione java._
 
+### Usage with gradle
+
+`compile 'me.matteomerola:codicefiscale:0.1.0'`
+
 ```java
 FiscalCodeCalculator fcc = new FiscalCodeCalculator();
 try {
