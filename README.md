@@ -18,7 +18,7 @@ _Clona o scarica questa repository e poi aggiungi il .jar fornito nel building p
 
 ### Usage with gradle
 
-`compile 'me.matteomerola:codicefiscale:0.1.0'` with `jcenter() in the repositories`
+`compile 'me.matteomerola:codicefiscale:0.1.1'` with `jcenter() in the repositories`
 
 ```java
 FiscalCodeCalculator fcc = new FiscalCodeCalculator();
