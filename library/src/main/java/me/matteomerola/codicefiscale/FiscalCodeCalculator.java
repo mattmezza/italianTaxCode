@@ -179,13 +179,9 @@ public class FiscalCodeCalculator {
 		}
 		}
 		/* day */
-		int day = 0;
-		if (fcBirthDate.charAt(0) == '0')
-			day = Integer.parseInt(fcBirthDate.substring(0, 1));
-		else
-			day = Integer.parseInt(fcBirthDate.substring(0, 2));
+		int day = Integer.parseInt(fcBirthDate.substring(0, 2));
 		if (sex == 'M')
-			fiscalCode += day;
+			fiscalCode += day < 10 ? "0" + day : day;
 		else {
 			day += 40;
 			fiscalCode += Integer.toString(day);
